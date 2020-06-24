@@ -20,16 +20,45 @@ We have used the following algorithms in this tool:
 Sample input and sample output
 
 ![](images/polygon.png)
+
 Here n=48.We can create polygon of any size and shape.
 
 ![](images/triangulation.png)
+
 Results after applying Ear Clipping Algorithm for Triangulation.
 
 ![](images/three_coloring_using_dfs.png)
+
 3-coloring algorithm
 
-![](images/displaypos.png)
+![](images/Displaypos.png)
+
 It tells about possible variations of position of guard that can be used to cover whole polygon
 
-![](images/visibilty.png)
+![](images/visibility.png)
+
 It tells about the range uptil a guard can see in one of the optimal variation
+
+
+Run on Windows
+
+    Download the Art Gallery setup.exe file from the dist folder and run it to install the Art Gallery Tool.
+    Run the Art Gallery Tool by executing Art Gallery Pedagogical Tool.exe from desktop shortcut or the location chosen to install the program.
+
+Run on Mac OS, Linux
+Requirements
+
+    Python 3+ (Python 3.6)
+
+Python Libraries (use pip to download and install these libraries)
+
+    Pygame (pip3 install pygame or pip install pygame)
+    EasyGui (pip3 install easygui or pip install easygui)
+    NumPy (pip3 install numpy or pip install numpy)
+
+Steps to run
+
+    Download all Python scripts from scripts folder.
+    Open terminal in the folder that contains the scripts.
+    Run command python3 ArtGallery.py or python ArtGallery.py to run the tool.
+
