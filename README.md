@@ -61,8 +61,7 @@ Steps to run
     Download all Python scripts from scripts folder.
     Open terminal in the folder that contains the scripts.
     Run command python3 ArtGallery.py or python ArtGallery.py to run the tool.
-
-General Instructions for GUI:
+General Instructions for GUI:   <br>
     1)Message regarding the program(i.e result,coloring,etc) will be displayed at top of the screen of GUI 
     2)For navigation in GUI the message will be displayed at the bottom of the screen of GUI
     3)Press Esc to exit the GUI screen
@@ -75,3 +74,4 @@ Input ways:
             7 8   
             10 50
             45 63
+
