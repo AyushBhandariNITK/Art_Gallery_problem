@@ -17,6 +17,41 @@ We have used the following algorithms in this tool:
 • M-coloring using backtracking (3-coloring) 
 • Polygon Visibility
 
+Run on Windows
+
+    Download the Art Gallery setup.exe file from the dist folder and run it to install the Art Gallery Tool.      
+    Run the Art Gallery Tool by executing Art Gallery Pedagogical Tool.exe from desktop shortcut or the location chosen to install the program.
+
+Run on Mac OS, Linux
+Requirements
+
+    Python 3+ (Python 3.6)
+
+Python Libraries (use pip to download and install these libraries)
+
+    Pygame (pip3 install pygame or pip install pygame)
+    EasyGui (pip3 install easygui or pip install easygui)
+    NumPy (pip3 install numpy or pip install numpy)
+
+Steps to run
+
+    Download all Python scripts from scripts folder.
+    Open terminal in the folder that contains the scripts.
+    Run command python3 ArtGallery.py or python ArtGallery.py to run the tool.
+General Instructions for GUI:   <br>
+    1)Message regarding the program(i.e result,coloring,etc) will be displayed at top of the screen of GUI <br>
+    2)For navigation in GUI the message will be displayed at the bottom of the screen of GUI <br>
+    3)Press Esc to exit the GUI screen  <br>
+Input ways: <br>
+    1)Input by mouse cursor  <br>
+	    *to terminate the creation of polygon press enter. <br>
+    2)Input by input file <br>
+        While making a input file make sure that the file vertices do make the simple polygon <br>
+        eg. input format : x y  <br>
+            7 8   <br>
+            10 50 <br>
+            45 63 <br>
+	    
 Sample input and sample output
 
 ![](images/polygon.png)
@@ -38,40 +73,3 @@ It tells about possible variations of position of guard that can be used to cove
 ![](images/visibility.png)
 
 It tells about the range uptil a guard can see in one of the optimal variation
-
-
-Run on Windows
-
-    Download the Art Gallery setup.exe file from the dist folder and run it to install the Art Gallery Tool.
-    Run the Art Gallery Tool by executing Art Gallery Pedagogical Tool.exe from desktop shortcut or the location chosen to install the program.
-
-Run on Mac OS, Linux
-Requirements
-
-    Python 3+ (Python 3.6)
-
-Python Libraries (use pip to download and install these libraries)
-
-    Pygame (pip3 install pygame or pip install pygame)
-    EasyGui (pip3 install easygui or pip install easygui)
-    NumPy (pip3 install numpy or pip install numpy)
-
-Steps to run
-
-    Download all Python scripts from scripts folder.
-    Open terminal in the folder that contains the scripts.
-    Run command python3 ArtGallery.py or python ArtGallery.py to run the tool.
-General Instructions for GUI:   <br>
-    1)Message regarding the program(i.e result,coloring,etc) will be displayed at top of the screen of GUI 
-    2)For navigation in GUI the message will be displayed at the bottom of the screen of GUI
-    3)Press Esc to exit the GUI screen
-Input ways:
-    1)Input by mouse cursor
-	    *to terminate the creation of polygon press enter.
-    2)Input by input file
-        While making a input file make sure that the file vertices do make the simple polygon
-        eg. input format : x y
-            7 8   
-            10 50
-            45 63
-
