@@ -38,10 +38,13 @@ Steps to run
     Download all Python scripts from scripts folder.
     Open terminal in the folder that contains the scripts.
     Run command python3 ArtGallery.py or python ArtGallery.py to run the tool.
+    
+<br>
 General Instructions for GUI:   <br>
     1)Message regarding the program(i.e result,coloring,etc) will be displayed at top of the screen of GUI <br>
     2)For navigation in GUI the message will be displayed at the bottom of the screen of GUI <br>
     3)Press Esc to exit the GUI screen  <br>
+<br> 
 Input ways: <br>
     1)Input by mouse cursor  <br>
 	    *to terminate the creation of polygon press enter. <br>
@@ -51,7 +54,7 @@ Input ways: <br>
             7 8   <br>
             10 50 <br>
             45 63 <br>
-	    
+<br>	    
 Sample input and sample output
 
 ![](images/polygon.png)
