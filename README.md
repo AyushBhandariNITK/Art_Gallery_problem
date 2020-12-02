@@ -14,7 +14,7 @@ First we built a polygon and used a graphical user interface to show instruction
 In the design part we also used prev and next buttons where users can navigate and visualize  the implementation.   
 We have used the following algorithms in this tool:
 • Ear Clipping Algorithm for Triangulation 
-• M-coloring using backtracking for 3-coloring 
+• M-coloring using backtracking (3-coloring) 
 • Polygon Visibility
 
 Sample input and sample output
@@ -62,3 +62,16 @@ Steps to run
     Open terminal in the folder that contains the scripts.
     Run command python3 ArtGallery.py or python ArtGallery.py to run the tool.
 
+General Instructions for GUI:
+    1)Message regarding the program(i.e result,coloring,etc) will be displayed at top of the screen of GUI 
+    2)For navigation in GUI the message will be displayed at the bottom of the screen of GUI
+    3)Press Esc to exit the GUI screen
+Input ways:
+    1)Input by mouse cursor
+	    *to terminate the creation of polygon press enter.
+    2)Input by input file
+        While making a input file make sure that the file vertices do make the simple polygon
+        eg. input format : x y
+            7 8   
+            10 50
+            45 63
